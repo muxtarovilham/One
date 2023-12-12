@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* button {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+  border-bottom: 1px solid gainsboro;
+}
+header .hdr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+}
+header .hdr .hdr1 {
+  width: 80%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+header .hdr .hdr1 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 80%;
+}
+header nav img {
+  width: 128px;
+  height: 40px;
+  cursor: pointer;
+}
+header nav .zzz {
+  justify-content: end;
+}
+header nav .zzz ul .zz {
+  color: rgb(0, 162, 255);
+}
+header nav .zzz ul a {
+  font-weight: 700;
+  transition: color 0.4s ease;
+  color: rgb(86, 86, 86);
+}
+header nav .zzz ul a:hover {
+  color: rgb(0, 162, 255);
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+main #prod {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+main #prod .boxz {
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+main #prod .boxz .boxez {
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+}
+main .sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+  width: 100%;
+}
+main .sec2 .form1 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+main .sec2 .form1 input {
+  width: 21%;
+  height: 33px;
+  padding: 7px;
+}
+main .sec2 .form1 button {
+  width: 10%;
+  height: 33px;
+  border: none;
+  background-color: #26b7e7;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+main .sec2 .form1 button:hover {
+  background-color: white;
+  color: #26b7e7;
+  border: 1px solid #26b7e7;
+}
+main .sec2 #load {
+  width: 148px;
+  height: 33px;
+  background-color: #26b7e7;
+  color: white;
+  border: none;
+  transition: background-color 0.4s ease;
+}
+main .sec2 #load:hover {
+  background-color: white;
+  color: #26b7e7;
+  border: 1px solid #26b7e7;
+}
+main .sec2 #products {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+main .sec2 #products .box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec2 #products .box button {
+  width: 77%;
+  height: 33px;
+  border: none;
+  background-color: #26b7e7;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+main .sec2 #products .box button:hover {
+  background-color: white;
+  color: #26b7e7;
+  border: 1px solid #26b7e7;
+}
+main .sec1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+main .sec1 img {
+  width: 100%;
+  height: 600px;
+  filter: brightness(40%);
+}
+main .sec1 .rightleft {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+}
+main .sec1 .rightleft i {
+  font-size: 18px;
+  padding: 21px;
+  background-color: #26b7e7;
+  transition: background-color 0.4s ease;
+  color: white;
+}
+main .sec1 .rightleft i:hover {
+  color: #26b7e7;
+  background-color: white;
+}
+main .sec1 .word {
+  position: absolute;
+  bottom: 33%;
+  left: 10%;
+  color: white;
+}
+main .sec1 .word h3 {
+  font-weight: 700;
+}
+main .sec1 .word h1 {
+  font-weight: 700;
+}
+main .sec1 .word p {
+  width: 66%;
+  font-weight: 400;
+}
+main .sec1 .word button {
+  width: 200px;
+  height: 51px;
+  background-color: #26b7e7;
+  color: white;
+  border-radius: 7px;
+  transition: background-color 0.4s ease;
+  border: none;
+}
+main .sec1 .word button:hover {
+  background-color: white;
+  color: #26b7e7;
+  border: 1px solid #26b7e7;
+}
+main .sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+main .sec3 .cc {
+  width: 90%;
+  height: 313px;
+  justify-content: center;
+  align-items: center;
+}
+main .sec3 .cc .imgz {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main .sec3 .cc .imgz .zz {
+  position: absolute;
+  top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 77px;
+  padding-bottom: 77px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: 1px solid white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+main .sec3 .cc .imgz .zz:hover {
+  opacity: 1;
+}
+main .sec3 .cc .imgz .zz h1 {
+  font-size: 21px;
+  color: white;
+}
+main .sec3 .cc .imgz .zz p {
+  color: white;
+}
+main .sec3 .cc .imgz img {
+  width: 100%;
+  height: 95%;
+}
+main .sec3 .sec33 {
+  width: 66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 14px;
+  font-weight: 700;
+}
+main .sec3 .sec33 p {
+  cursor: pointer;
+}
+main .sec4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+main .sec4 .ccc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec4 .ccc img {
+  width: 100%;
+  height: auto;
+}
+main .sec4 .ccc p {
+  width: 100%;
+  height: auto;
+  background-color: #26b7e7;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 27, 27);
+}
+footer p {
+  color: gray;
+}
